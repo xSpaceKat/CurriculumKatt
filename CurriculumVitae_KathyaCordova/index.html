@@ -10,33 +10,54 @@
 
 <!-- Nombre de la pagina -->
 <body>
-    <h1 id="top"> Curriculum Vitae - Kathya Margarita Cordova Soto </h1>
+    <header>
+        <h1 id="top"> Curriculum Vitae - Kathya Margarita Cordova Soto </h1>
+    </header>
     <!-- Imagen mia de referencia -->
-        <img src="./imgs/kat.jpg" alt="Mi persona">
+        <figure>
+            <img src="./imgs/kat.jpg" alt="Mi persona" width="450px" height="300px">
+            <figcaption> 
+                Yo 
+            </figcaption>
+        </figure>
+        <details>
+            <summary> <strong> Resumen </strong> </summary>
+            <p> <span style="color: red;"> Te toca leer todo </span></p>
+        </details>
     <!-- Indice de la Pagina -->
-            <ul> Índice <br>
-            <il> <a href="#inicio"> 1. Presentación Personal </a> </il> <br>
-            <il> <a href="#proyectos"> 2. Proyectos / Trabajos </a> </il> <br>
-            <il> <a href="#estudios"> 3. Estudios - Nivel de Ingles </a> </il> <br>
-            <il> <a href="#habilidades"> 4. Soft/Hard Skills </a> </il> <br>
-            <il> <a href="#contacto"> 5. Contacto </a> </il> <br>
-        </ul>
+            <aside>
+                <nav>
+                    <ul> Índice <br>
+                        <il> <a href="#inicio"> 1. Presentación Personal </a> </il> <br>
+                        <il> <a href="#proyectos"> 2. Proyectos / Trabajos </a> </il> <br>
+                        <il> <a href="#estudios"> 3. Estudios - Nivel de Ingles </a> </il> <br>
+                        <il> <a href="#habilidades"> 4. Soft/Hard Skills </a> </il> <br>
+                        <il> <a href="#contacto"> 5. Contacto </a> </il> <br>
+                    </ul>
+                </nav>
+            </aside>
 </body>
 
+<main>
 <!-- Inicio / Presentacion Personal-->
+<section style="border-color: blueviolet; border-style: solid; border-width: 2px;">
 <body>
-    <h2 id="inicio"> Acerca de mí </h2>
-        <p>
-            Soy estudiante cursando el 4to semestre de la carrera de <br>
-            Ingenieria en Software, Contando tambien con mi <br>
-            especialidad en contabilidad, Me gustaria ganar mas <br>
-            conocimiento en el ambito de la ingenieria de datos y estoy <br>
-            dispuesta a aprender muchos mas lenguajes, asi como lo <br>
-            que se me proponga. <br>
-        </p>
+<header>
+<h2 id="inicio"> Acerca de mí </h2>
+</header>
+    <p>
+        Soy estudiante cursando el 4to semestre de la carrera de <br>
+        Ingenieria en Software, Contando tambien con mi <br>
+        especialidad en contabilidad, Me gustaria ganar mas <br>
+        conocimiento en el ambito de la ingenieria de datos y estoy <br>
+        dispuesta a aprender muchos mas lenguajes, asi como lo <br>
+        que se me proponga. <br>
+    </p>
 </body>
+</section>
 
 <!-- Proyectos / Trabajos -->
+<section style="background-color: aqua;">
 <body>
      <h2 id="proyectos"> Proyectos / Trabajos </h2>
         <p> 
@@ -48,8 +69,11 @@
             <strong> <a href="https://drive.google.com/drive/folders/17YCaoYpRbwzOxgsFWq3wM9KfZ2p6PICe?usp=sharing" target="_blank"> • Link de Trabajos en Drive </a> </strong> <br>
         </p>
 </body>
+</section>
+
 
 <!-- Estudios y Nivel de Ingles-->
+<section style="border-color: hotpink; border-style: solid; border-width: 2px;">
 <body>
      <h2 id="estudios"> Estudios - Nivel de Ingles </h2>
      <p>
@@ -71,39 +95,47 @@
         </ul>
      </p>
 </body>
+</section>
 
 <!-- Habilidades y Soft Hard-->
+<div style="background-color: wheat">
 <body>
     <h2 id="habilidades"> Soft/Hard Skills </h2>
     <p>
         <!-- Soft skills -->
-        <ul> <strong> Soft Skills </strong> <br>
-            <il> • Compromiso </il> <br>
-            <il> • Comunicación asertiva </il> <br>
-            <il> • Organización </il> <br>
-            <il> • Resolución de problemas </il> <br>
-            <il> • Creativiad </il> <br>
-            <il> • Trabajo en equipo </il> <br>
-        </ul>
+        <nav>
+            <ul> <strong> Soft Skills </strong> <br>
+                <il> • Compromiso </il> <br>
+                <il> • Comunicación asertiva </il> <br>
+                <il> • Organización </il> <br>
+                <il> • Resolución de problemas </il> <br>
+                <il> • Creativiad </il> <br>
+                <il> • Trabajo en equipo </il> <br>
+                </ul>
+        </nav>
         <br>
         <!-- Hard Skills -->
-        <ul><strong> Hard Skills </strong> <br>
-            <il> • Contabilidad </il> <br>
-            <il> • Manejo de Idiomas </il> <br>
-            <il> • Conocimiento de Software </il> <br>
-            <il> • Lenguajes de programación </il> <br>
-        </ul>
+         <nav>
+            <ul><strong> Hard Skills </strong> <br>
+                <il> • Contabilidad </il> <br>
+                <il> • Manejo de Idiomas </il> <br>
+                <il> • Conocimiento de Software </il> <br>
+                <il> • Lenguajes de programación </il> <br>
+            </ul>
+        </nav>
     </p>
 </body>
+</div>
 
 <!-- Contacto -->
+ <div style="border-color: darkgrey;">
  <body>
     <h2 id="contacto"> Contacto </h2>
     <p>
-        <strong> Telefono: </strong> (+52) 644-234-7031 <br>
-        <strong> Correo Electronico: </strong> kathya.cordova246801@potros
-        .itson.edu.mx <br>
-        <strong> Residencia: </strong> Cd. Obregón, Sonora <br>
+        <strong> Telefono: </strong> <span style="color: tomato;"> (+52) 644-234-7031 </span> <br>
+        <strong> Correo Electronico: </strong><span style="color: tomato;"> kathya.cordova246801@potros
+        .itson.edu.mx </span> <br>
+        <strong> Residencia: </strong> <span style="color: tomato;"> Cd. Obregón, Sonora </span> <br>
         <br>
     </p>
     <p>
@@ -111,5 +143,9 @@
         <strong><a href="#top"> Volver al Inicio </a></strong>
     </p>
  </body>
+</div>
 
+</main>
+
+<footer> Derechos Reservados a <span style="color: yellowgreen;"> Katt </span></footer>
 </html>
